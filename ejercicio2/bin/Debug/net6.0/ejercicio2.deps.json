@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ejercicio2/1.0.0": {
+        "dependencies": {
+          "biblioteca": "1.0.0",
+          "ejercicio1": "1.0.0"
+        },
+        "runtime": {
+          "ejercicio2.dll": {}
+        }
+      },
+      "biblioteca/1.0.0": {
+        "runtime": {
+          "biblioteca.dll": {}
+        }
+      },
+      "ejercicio1/1.0.0": {
+        "dependencies": {
+          "biblioteca": "1.0.0"
+        },
+        "runtime": {
+          "ejercicio1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ejercicio2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "biblioteca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ejercicio1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
